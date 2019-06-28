@@ -4,7 +4,7 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./github.com/brunildacity01/multilabel_classification/blob/master/multilabel_classification_FeatureEng.ipynbanother-page.html).
+[Link to another page](.https://github.com/brunildacity01/multilabel_classification/blob/master/multilabel_classification_FeatureEng.ipynb).
 
 There should be whitespace between paragraphs.
 
