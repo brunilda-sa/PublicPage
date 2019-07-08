@@ -8,7 +8,7 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 # Multi-Label Classification for satellite images
 ## Baseline Approach
-[Baseline Approach](./nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/multilabel_classification_FeatureEng.ipynb)
+[Baseline Approach](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/multilabel_classification_FeatureEng.ipynb)
 ## Second Approach
 
 ## Third Approach
