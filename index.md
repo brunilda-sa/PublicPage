@@ -5,7 +5,7 @@ layout: default
 # Table of Contents
 
 1. [MultiLabel Classification for satellite images Project](#my-first-title)
-2. [My second title](#my-second-title)
+2. [My second hola](#my-second-hola)
 
 ## MultiLabel Classification for satellite images
 ### Baseline Approach
@@ -14,7 +14,7 @@ layout: default
 
 ### Third Approach
 
-### My second title
+### My second hola
 
 ## Header 2
 
