@@ -2,9 +2,13 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Table of Contents
 
-[Link to another page](./google.com).
+1. [Multi-Label Classification for satellite images Project](#Multi-Label Classification for satellite images)
+2. [My second title](#my-second-title)
+## My first title
+Some text.
+## My second title
 
 # Multi-Label Classification for satellite images
 ## Baseline Approach
