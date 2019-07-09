@@ -4,10 +4,10 @@ layout: default
 
 # Table of Contents
 
-1. [Multi-Label Classification for satellite images Project](#Multi-Label-Classification-for-satellite-images-Project)
+1. [MultiLabel Classification for satellite images Project](#MultiLabel-Classification-for-satellite-images-Project)
 2. [My second title](#my-second-title)
 
-## Multi-Label Classification for satellite images
+## MultiLabel Classification for satellite images
 ## Baseline Approach
 [Baseline Approach](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/multilabel_classification_FeatureEng.ipynb)
 ## Second Approach
