@@ -3,8 +3,8 @@ This page lists my data scientist projects. To navigate through the projects use
 
 # Table of Contents
 
-1. [MultiLabel Classification for satellite images](#multiLabel-mlassification-for-satellite-images)
-2. [My upcoming Project](#my-upcoming-mroject)
+1. [MultiLabel Classification for satellite images](#MultiLabel-Classification-for-satellite images)
+2. [My upcoming Project](#my-upcoming-project)
 
 ## MultiLabel Classification for satellite images
 ### Project Description
