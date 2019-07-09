@@ -2,19 +2,29 @@
 layout: default
 ---
 
+# Introduction
+This page lists my data scientist projects. To navigate through the projects use the Table of Contents below.
+
 # Table of Contents
 
-1. [MultiLabel Classification for satellite images](#MultiLabel-Classification-for-satellite-images)
-2. [My second title](#my-second-title)
+1. [Introduction](#Introduction)
+2. [MultiLabel Classification for satellite images](#MultiLabel-Classification-for-satellite-images)
+3. [My second Project](#my-second-project)
 
 ## MultiLabel Classification for satellite images
-### Baseline Approach
-[Baseline Approach](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/multilabel_classification_FeatureEng.ipynb)
-### Second Approach
+### Project Description
+> On this project the goal is to build a multi-label classification model, where given a specific satellite image the model> will associate all labels belonging to it. The labels associated to the satellite images describe differents atmospheric> conditions and various classes of land cover/land use. There are 17 possible labels: agriculture, artisinal_mine, bare_ground,> blooming, blow_down, clear, cloudy, conventional_mine, cultivation, habitation, haze, partly_cloudy, primary,> road, selective_logging, slash_burn, water.
+> In order to find the best model, I propose three approaches. All details regarding the project and the methodoly can be find> in the [Projects Details](https://github.com/brunildacity01/multilabel_classification)
 
-### Third Approach
+### Project Notebooks
+| Approach          | head two       
+|:------------------|:------------------
+| BaselineApproach  | [Baseline_Approach_Notebook](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/multilabel_classification_FeatureEng.ipynb)  |
+| SecondApproach    | [Second_Approach_Notebook](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/multilabel_classification_FeatureEng.ipynb)  |
+| ThirdApproach     | [Third_Approach_Notebook](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/multilabel_classification_FeatureEng.ipynb)  |
 
-### My second hola
+### My second project
+This project is still work in progress and will be published in the weeks to come.
 
 ## Header 2
 
