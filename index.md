@@ -4,7 +4,7 @@ layout: default
 
 # Table of Contents
 
-1. [Multi-Label Classification for satellite images Project](#My-first-title)
+1. [Multi-Label Classification for satellite images Project](#Multi-Label-Classification-for-satellite-images-Project)
 2. [My second title](#my-second-title)
 
 ## Multi-Label Classification for satellite images
