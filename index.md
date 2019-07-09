@@ -15,9 +15,9 @@ In order to find the best model, I propose three approaches. All details regardi
 ### Project Notebooks
 | Approach          | NoteBook Links               |
 |:------------------|:-----------------------------|
-| BaselineApproach  | [Baseline_Approach_Notebook](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/multilabel_classification_FeatureEng.ipynb)|
-| SecondApproach    | [Second_Approach_Notebook](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/multilabel_classification_FeatureEng.ipynb)|
-| ThirdApproach     | [Third_Approach_Notebook](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/multilabel_classification_FeatureEng.ipynb)|
+| BaselineApproach  | [Baseline_Approach_Notebook](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/multilabel_classification_FeatureEng.ipynb) |
+| SecondApproach    | [Second_Approach_Notebook](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/multilabel_classification_FeatureEng.ipynb) |
+| ThirdApproach     | [Third_Approach_Notebook](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/multilabel_classification_FeatureEng.ipynb) |
 
 ## My upcoming Project
 This project is still work in progress and will be published in the weeks to come.
