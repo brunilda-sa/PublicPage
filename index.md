@@ -13,11 +13,11 @@ There are 17 possible labels: agriculture, artisinal_mine, bare_ground, blooming
 In order to find the best model, I propose three approaches. All details regarding the project and the methodoly can be find in the [Projects Details](https://github.com/brunildacity01/multilabel_classification)
 
 ### Project Notebooks
-| Approach          | NoteBook Links               |
-|:------------------|:-----------------------------|
-| BaselineApproach  | [Baseline_Approach_Notebook](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/multilabel_classification_FeatureEng.ipynb) |
-| SecondApproach    | [Second_Approach_Notebook](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/multilabel_classification_FeatureEng.ipynb)   |
-| ThirdApproach     | [Third_Approach_Notebook](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/multilabel_classification_FeatureEng.ipynb)    |
+| Approach          | NoteBook Links              |
+|:------------------|:----------------------------|
+| BaselineApproach  | [Baseline_Approach_Notebook]|
+| SecondApproach    | [Second_Approach_Notebook]  |
+| ThirdApproach     | [Third_Approach_Notebook]   |
 
 ## My upcoming Project
 This project is still work in progress and will be published in the weeks to come.
