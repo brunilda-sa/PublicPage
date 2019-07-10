@@ -3,21 +3,21 @@ This page lists my data scientist projects. To navigate through the projects use
 
 # Table of Contents
 
-1. [MultiLabel Classification for satellite images](#MultiLabel-Classification-for-satellite-images)
+1. [My upcoming 2](#my-upcoming-2)
 2. [My upcoming Project](#my-upcoming-project)
 
-## MultiLabel Classification for satellite images
+## My upcoming 2
 ### Project Description
 > On this project the goal is to build a multi-label classification model, where given a specific satellite image the model will associate all labels belonging to it. The labels associated to the satellite images describe differents atmospheric conditions and various classes of land cover/land use. 
 There are 17 possible labels: agriculture, artisinal_mine, bare_ground, blooming, blow_down, clear, cloudy, conventional_mine, cultivation, habitation, haze, partly_cloudy, primary, road, selective_logging, slash_burn, water.
 In order to find the best model, I propose three approaches. All details regarding the project and the methodoly can be find in the [Projects Details](https://github.com/brunildacity01/multilabel_classification)
 
 ### Project Notebooks
-| Approach          | NoteBook Links              |
-|:------------------|:----------------------------|
-| BaselineApproach  | [Baseline_Approach_Notebook]|
-| SecondApproach    | [Second_Approach_Notebook]  |
-| ThirdApproach     | [Third_Approach_Notebook]   |
+| Approach          | Description          | Notebook Link               |
+|:------------------|:---------------------|:----------------------------|
+| BaselineApproach  | Classifiers          | [Second_Approach_Notebook]  |
+| SecondApproach    | Neural Networks      | [Second_Approach_Notebook]  |
+| ThirdApproach     | Feature Engineering  | [Third_Approach_Notebook]   |
 
 ## My upcoming Project
 This project is still work in progress and will be published in the weeks to come.
