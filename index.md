@@ -12,7 +12,7 @@ This page lists my data scientist projects. To navigate through the projects use
 There are 17 possible labels: agriculture, artisinal_mine, bare_ground, blooming, blow_down, clear, cloudy, conventional_mine, cultivation, habitation, haze, partly_cloudy, primary, road, selective_logging, slash_burn, water.
 In order to find the best model, I propose three approaches. All details regarding the project and the methodoly can be find in the [Projects Details](https://github.com/brunildacity01/multilabel_classification)
 
-<img src="https://github.com/brunildacity01/MyProjects/blob/master/Images/Images_Classes.png" class="img-responsive" alt=""> </div>
+<div><img src="https://github.com/brunildacity01/MyProjects/blob/master/Images/Images_Classes.png" class="img-responsive" alt=""> </div>
 
 ### Project Notebooks
 Below all the notebooks associated to this project. You will find more details about the results and the code
