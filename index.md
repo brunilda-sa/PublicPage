@@ -15,7 +15,7 @@ In order to find the best model, I propose three approaches. All details regardi
 ### Project Notebooks
 | Approach          | Description          | Notebook Link               |
 |:------------------|:---------------------|:----------------------------|
-| BaselineApproach  | Classifiers          | [Second_Approach_Notebook](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/Capstone_BaselineAndSecondApproach.ipynb)  |
+| BaselineApproach  | Classifiers          | [BaseLine_Approach_Notebook](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/Capstone_BaselineAndSecondApproach.ipynb)  |
 | SecondApproach    | Neural Networks      | [Second_Approach_Notebook](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/Capstone_BaselineAndSecondApproach.ipynb)  |
 | ThirdApproach     | Feature Engineering  | [Third_Approach_Notebook](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/Capstone_ThirdApproach.ipynb)   |
 
