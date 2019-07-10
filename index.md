@@ -13,12 +13,12 @@ There are 17 possible labels: agriculture, artisinal_mine, bare_ground, blooming
 In order to find the best model, I propose three approaches. All details regarding the project and the methodoly can be find in the [Projects Details](https://github.com/brunildacity01/multilabel_classification)
 
 ### Project Notebooks
-[BaseLine_Approach_Notebook](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/Capstone_BaselineAndSecondApproach.ipynb)
-<dt>SecondApproach</dt>
-<dd>[Second_Approach_Notebook](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/Capstone_BaselineAndSecondApproach.ipynb)</dd>
-<dt>ThirdApproach</dt>
-<dd>[Third_Approach_Notebook](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/Capstone_ThirdApproach.ipynb)</dd>
-</dl>
+Below all the notebooks associated to this project. You will find more details about the results and the code
+
+*   [BaseLine Approach Notebook](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/Capstone_BaselineAndSecondApproach.ipynb)
+*   [Second Approach Notebook](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/Capstone_BaselineAndSecondApproach.ipynb)
+*   [Third Approach Notebook](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/Capstone_ThirdApproach.ipynb)
+
 ## My upcoming Project
 This project is still work in progress and will be published in the weeks to come.
 
