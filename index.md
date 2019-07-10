@@ -3,7 +3,7 @@ This page lists my data scientist projects. To navigate through the projects use
 
 # Table of Contents
 
-1. [MultiLabel Classification)](#MultiLabel-Classification)
+1. [MultiLabel Classification](#MultiLabel-Classification)
 2. [My upcoming Project](#my-upcoming-project)
 
 ## MultiLabel Classification
