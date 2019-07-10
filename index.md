@@ -9,11 +9,12 @@ This page lists my data scientist projects. To navigate through the projects use
 
 # MultiLabel Classification for satellite images
 ## Project Description
-> On this project the goal is to build a multi-label classification model, where given a specific satellite image the model will associate all labels belonging to it. The labels associated to the satellite images describe differents atmospheric conditions and various classes of land cover/land use. 
+> On this project the goal is to build a multi-label classification model, where given a specific satellite image the model will associate all labels belonging to it. The labels associated to the satellite images describe differents atmospheric conditions and various classes of land cover/land use.
+
 There are 17 possible labels: agriculture, artisinal_mine, bare_ground, blooming, blow_down, clear, cloudy, conventional_mine, cultivation, habitation, haze, partly_cloudy, primary, road, selective_logging, slash_burn, water.
 In order to find the best model, I propose three approaches. All details regarding the project and the methodoly can be find in the [Projects Details](https://github.com/brunildacity01/multilabel_classification)
 
-![alt text](https://github.com/brunildacity01/MyProjects/blob/master/Images/Images_Classes.png)
+<img src="{{ site.github.com }}/brunildacity01/MyProjects/blob/master/Images/Images_Classes.png">
 
 ## Project Notebooks
 Below all the notebooks associated to this project. You will find more details about the results and the code
