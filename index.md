@@ -3,8 +3,9 @@ This page lists my data scientist projects. To navigate through the projects use
 
 # Table of Contents
 
-1. [MultiLabel Classification for satellite images](#MultiLabel-Classification-for-satellite-images)
-2. [My upcoming Project](#my-upcoming-project)
+1. [Introduction](#Introduction)
+2. [MultiLabel Classification for satellite images](#MultiLabel-Classification-for-satellite-images)
+3. [My upcoming Project](#my-upcoming-project)
 
 ## MultiLabel Classification for satellite images
 ### Project Description
@@ -13,6 +14,7 @@ There are 17 possible labels: agriculture, artisinal_mine, bare_ground, blooming
 In order to find the best model, I propose three approaches. All details regarding the project and the methodoly can be find in the [Projects Details](https://github.com/brunildacity01/multilabel_classification)
 
 <div><img src="https://github.com/brunildacity01/MyProjects/blob/master/Images/Images_Classes.png" class="img-responsive" alt=""> </div>
+![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
 ### Project Notebooks
 Below all the notebooks associated to this project. You will find more details about the results and the code
