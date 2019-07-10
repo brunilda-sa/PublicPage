@@ -14,8 +14,7 @@ In order to find the best model, I propose three approaches. All details regardi
 
 ### Project Notebooks
 <dl>
-<dt>BaselineApproach</dt>
-<dd>[BaseLine_Approach_Notebook](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/Capstone_BaselineAndSecondApproach.ipynb)</dd>
+<dt>BaselineApproach</dt>: [BaseLine_Approach_Notebook](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/Capstone_BaselineAndSecondApproach.ipynb)
 <dt>SecondApproach</dt>
 <dd>[Second_Approach_Notebook](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/Capstone_BaselineAndSecondApproach.ipynb)</dd>
 <dt>ThirdApproach</dt>
