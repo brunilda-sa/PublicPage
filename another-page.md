@@ -1,10 +1,9 @@
 ---
 layout: default
-title: Another page
-description: This is just another page
+title: Multi-label classification for Satellite Images
+description: This section provides details about the Multi-Label Classifier build in the context of this project
 ---
 
-## Welcome to another page
 # Multi-label classification for Satellite Images
 
 ## Introduction
