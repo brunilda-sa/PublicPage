@@ -2,12 +2,6 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
 # Introduction
 This page lists my data scientist projects. To navigate through the projects use the Table of Contents below.
@@ -24,8 +18,8 @@ This page lists my data scientist projects. To navigate through the projects use
 
 > There are 17 possible labels: agriculture, artisinal_mine, bare_ground, blooming, blow_down, clear, cloudy, conventional_mine, cultivation, habitation, haze, partly_cloudy, primary, road, selective_logging, slash_burn, water.
 In order to find the best model, I propose three approaches. All details, data regarding the project can be find in the links below:
-*   [Project Description](./MultiLabel_ClassificationProject.html).
-*   [GitHub Page](https://github.com/brunildacity01/multilabel_classification)
+*   [Project Description](./MultiLabel_ClassificationProject.html)
+*   [Project Repository](https://github.com/brunildacity01/multilabel_classification)
 
 ## Project Notebooks
 Below all the notebooks associated to this project. You will find more details about the results and the code
