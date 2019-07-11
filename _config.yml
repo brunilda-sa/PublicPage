@@ -1,5 +1,5 @@
 title: My Data Scientist Projects
 description: This page contains the list of all my data scientist projects
-show_downloads: false
+show_downloads: True
 google_analytics:
 theme: jekyll-theme-cayman
