@@ -12,7 +12,7 @@ There are 17 possible labels: agriculture, artisinal_mine, bare_ground, blooming
 
 ### Data source and description
 The dataset contains the list of labels and satellite images. Images have four bands of data: red, green, blue, and near infrared
-The data comes from Planet (https://www.planet.com/) and its Brazilian partner SCCON (https://www.sccon.com.br/)
+The data comes from [Planet](https://www.planet.com/) and its Brazilian partner [SCCON](https://www.sccon.com.br/)
 Data list:
 -  train.csv - contains the training file names and their labels, the labels are space-delimited
 -  sample_submission.csv - contains all file names and their labels in the test set
