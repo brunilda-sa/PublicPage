@@ -1,9 +1,8 @@
 ---
 layout: default
+title: My Data Science projects
+description: This page contains the list of all my data scientist projects.
 ---
-
-
-
 
 # Introduction
 This page lists my data scientist projects. To navigate through the projects use the Table of Contents below.
