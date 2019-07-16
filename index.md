@@ -1,7 +1,7 @@
 ---
 layout: default
 title: My Data Science projects
-description: My data scientist projects
+description: This page contains the list of all my data scientist projects
 ---
 
 # Introduction
@@ -32,3 +32,15 @@ Below the notebooks associated to this project. You will find more all details a
 
 ## Notebooks
 > This project is still work in progress and will be published in the weeks to come.
+
+
+
+
+
+
+
+
+
+
+
+
