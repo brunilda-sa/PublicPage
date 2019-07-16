@@ -96,14 +96,14 @@ As shown below, classifiers were not able to predict labels having under-sampled
 **Third Approach**
 
 `Classifiers`
-_Average Score`
+Average Score
 - KNN                                   : 0.774087
 - MLKNN                                 : 0.816947
 - RandomForestClassifier                : 0.781214
 - OnevsRestClassifier_LogisticRegression: 0.762463
 - OnevsRestClassifier_LinearSVC         : 0.701709
 
-_Score per class`
+Score per class
 
 As shown below, when analysing the results per label, all Classifiers were able to predict all labels
 
@@ -126,16 +126,20 @@ As shown below, when analysing the results per label, all Classifiers were able 
 **Second Approach**
 - In average the F2 score for all neural networks is 0.7172295, which is a good score and 3.3444386 % better than the Baseline approach. We can say that neural network perform slightly better than scikit-learn Classifiers
 
-- `Selection`: Among the all neural networks CNN performed the best with an average F2 score of 0.732413 
+- `Selection`: Among all the neural networks CNN performed the better with an average F2 score of 0.732413 
 
 **Third Approach**
-- In average the F2 score for all Classifiers is 0.767284, which is a good score and 9.649855855% better than the Baseline approach and 6.523594914% better than the second approach.
+- In average the F2 score for all Classifiers is 0.767284, which is a good score and 9.649855855% better than the Baseline approach and 6.523594914% better than the second approach
 - The MLKNN Classifier has obtained the best average F2 score and was able to predict all labels  
 - OneVsRestClassifier with LinearSVC has obtained the lowest average F2 score, but was able to predict all labels
 
 - `Selection`: With an average F2 score of 0.816947 the OneVsRestClassifier with LinearSVC is the best model overall
 
-To conclude on what approach/model is the best, more analysis will be required. The next steps will be to try the VGG16 pretrained neural network.
+To conclude on what approach/model is the best, more analysis will be required. The next steps will be:
+- Build a model based on the pretrained VGG16 neural network
+- Resampling the dataset
+- Improve the hyperparameter optimization, on neural networks
+
 
 [back](./)
 
