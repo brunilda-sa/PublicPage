@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Multi-label classification for Satellite Images
-description: This page provides details about the process involve in building a Multi-Label Classifier for satellite images
+description: This page provides details about the process involves in building a Multi-Label Classifier for satellite images
 ---
 # Multi-label classification for Satellite Images
 
@@ -28,13 +28,10 @@ Multi-Label classification means a classification task with more than one classe
 - Imbalanced dataset
 
 ### Methodology 
--  Try several strategies
-  - `Baseline` Approach: Use scikit-learn Classifiers to build a multi-label model 
-  - `Second` Approach: Use CNN and Transfer Learning neural networks to build a multi-label model 
-  - `Third` Approach: Feature Engineer the predefined classes
+-  Try several [approaches](#Overview-of-differents-strategies)
 -  Load a subset of data with 10000 samples and have a first overview of the labels distribution
 -  Preprocess Data
--  Select scikit-learn Classfiers that handle multi-label classification
+-  Select scikit-learn Classifiers that handle multi-label classification
 -  Select the best metric for this classiciation task
 -  Hyperparameter optimization and select the best paramter for each classifier 
 -  Use the selected parameters and score each classifier
@@ -49,6 +46,11 @@ Multi-Label classification means a classification task with more than one classe
 **Recall**   :is the ratio of true positives to all actual positives (tp + fn)
 
 ## Overview of differents strategies
+To find the best model, we are going to try several approaches:
+* `Baseline Approach`: Use scikit-learn Classifiers to build a multi-label model 
+* `Second Approach`  : Use CNN and Transfer Learning neural networks to build a multi-label model 
+* `Third Approach`   : Feature Engineer the predefined classes
+
 ## Baseline approach
 For the Baseline approach, we are going to proceed to a comparison analysis, based on the F2 score, among several sklearn classifiers that are able to handle multi-label classification. For more information about the below classifiers refer to [scikit Learn](https://scikit-learn.org/stable/modules/multiclass.html) web page:
   - KNN Classifier
@@ -70,14 +72,15 @@ For the Third approach, after feature engineering, we are going to proceed to a 
 In this section we are going to present a summary of results. For more the details about the results and visualization, please refer to the [previous page](https://brunildacity01.github.io/MyProjects/#my-upcoming-project), under the section `Notebooks`.
 
 **Baseline Approach** 
-`Overall results`
+
+`Average Score`
 - KNN                                   : 0.709413
 - MLKNN                                 : 0.747590
 - RandomForestClassifier                : 0.697395
 - OnevsRestClassifier_LogisticRegression: 0.639626
 - OnevsRestClassifier_LinearSVC         : 0.672187
 
-`Results per Classes`
+`Score per class`
 As shown below, classifiers were not able to predict labels having under-sampled data, in our case as shown in the i.e. conventional_mine, selective_logging, blow_down, blooming, artisinal_mine
 
 ![ALT_Message](https://github.com/brunildacity01/MyProjects/blob/master/Images/Results_PerLabelBaseline.png)
@@ -88,15 +91,14 @@ As shown below, classifiers were not able to predict labels having under-sampled
 - VGG16                                 : work in progress
 
 **Third Approach**
-`Classifiers`
-`Overall results`
+`Classifiers` / `Average Score`
 - KNN                                   : 0.774087
 - MLKNN                                 : 0.816947
 - RandomForestClassifier                : 0.781214
 - OnevsRestClassifier_LogisticRegression: 0.762463
 - OnevsRestClassifier_LinearSVC         : 0.701709
 
-Results per Classes
+`Score per class`
 As shown below, when analysing the results per label, all Classifiers were able to predict all labels
 
 ![ALT_Message](https://github.com/brunildacity01/MyProjects/blob/master/Images/Results_PerLabelThird.png)
