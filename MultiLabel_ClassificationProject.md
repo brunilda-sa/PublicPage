@@ -106,7 +106,7 @@ Score per class
 
 As shown below, when analysing the results per label, all Classifiers were able to predict all labels
 
-![ALT_Text]("https://raw.githubusercontent.com/brunildacity01/MyProjects/blob/master/Images/Results_PerLabelThird.png)
+![ALT_Text]("https://raw.githubusercontent.com/brunildacity01/MyProjects/master/Images/Results_PerLabelThird.png")
 
 `Neural Networks`
 
