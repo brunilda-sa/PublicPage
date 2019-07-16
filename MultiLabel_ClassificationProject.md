@@ -50,7 +50,7 @@ To find the best model, we are going to try several approaches:
 * `Second Approach`  : Use CNN and Transfer Learning neural networks to build a multi-label model 
 * `Third Approach`   : Feature Engineer the predefined classes
 
-## Baseline approach
+### Baseline approach
 For the Baseline approach, we are going to proceed to a comparison analysis, based on the F2 score, among several sklearn classifiers that are able to handle multi-label classification. For more information about the below classifiers refer to [scikit Learn](https://scikit-learn.org/stable/modules/multiclass.html) web page:
   - KNN Classifier
   - MLKNN Classifier
@@ -58,13 +58,13 @@ For the Baseline approach, we are going to proceed to a comparison analysis, bas
   - OneVsRestClassifier with LogisticRegression
   - OneVsRestClassifier with LinearSVC
   
-## Second approach
+### Second approach
 For the second approach, we are going to proceed to a comparison analysis, based on the F2 score, among the below neural networks:
 - CNN
 - MobileNet
 - VGG16
 
-## Third approach
+### Third approach
 For the Third approach, after feature engineering, we are going to proceed to a comparison analysis, based on the F2 score, among all the classifiers and all neural network mentionned in the Baseline and Second approach.
 
 ## Results Summary
