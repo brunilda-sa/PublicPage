@@ -81,6 +81,7 @@ In this section we are going to present a summary of results. For more the detai
 - OnevsRestClassifier_LinearSVC         : 0.672187
 
 `Score per class`
+
 As shown below, classifiers were not able to predict labels having under-sampled data, in our case as shown in the i.e. conventional_mine, selective_logging, blow_down, blooming, artisinal_mine
 
 ![ALT_Message](https://github.com/brunildacity01/MyProjects/blob/master/Images/Results_PerLabelBaseline.png)
@@ -91,6 +92,7 @@ As shown below, classifiers were not able to predict labels having under-sampled
 - VGG16                                 : work in progress
 
 **Third Approach**
+
 `Classifiers` / `Average Score`
 - KNN                                   : 0.774087
 - MLKNN                                 : 0.816947
@@ -99,30 +101,32 @@ As shown below, classifiers were not able to predict labels having under-sampled
 - OnevsRestClassifier_LinearSVC         : 0.701709
 
 `Score per class`
+
 As shown below, when analysing the results per label, all Classifiers were able to predict all labels
 
 ![ALT_Message](https://github.com/brunildacity01/MyProjects/blob/master/Images/Results_PerLabelThird.png)
 
 `Neural Networks`
+
 - CNN                                   : 0.866102
 - MobileNet                             : 0.772362
 - VGG16                                 : work in progress
 
 ## Conclusion
-*   Baseline Approach 
-- `In average` the F2 score for all Classifiers is `0.6932422`, which is a good score taking into account the complexity of the task
+**Baseline Approach** 
+- In average the F2 score for all Classifiers is 0.6932422, which is a good score taking into account the complexity of the task
 - The MLKNN Classifier has obtained the best average F2 score, but the second place when predicting each label  
 - OneVsRestClassifier with LogisticRegression has obtained the lowest average F2 score, but the first in predicting each label. Setting the class_weight to 'balanced' has certendly improved the performances
 
-- `Selection`: in this case, with an average F2 score of 0.639626 and a classification of 15 labels over 17, the OneVsRestClassifier with LogisticRegression is the best model overall
+- `Selection`: With an average F2 score of 0.639626 and a classification of 15 labels over 17, the OneVsRestClassifier with LogisticRegression is the best model overall
 
-*   Second Approach
-- `In average` the F2 score for all neural networks is `0.7172295`, which is a good score and 3.3444386 % better than the Baseline approach. We can say that neural network perform slightly better than scikit-learn Classifiers
+**Second Approach**
+- In average the F2 score for all neural networks is 0.7172295, which is a good score and 3.3444386 % better than the Baseline approach. We can say that neural network perform slightly better than scikit-learn Classifiers
 
 - `Selection`: Among the all neural networks CNN performed the best with an average F2 score of 0.732413 
 
-*   Third Approach
-- `In average` the F2 score for all Classifiers is `0.767284`, which is a good score and 9.649855855% better than the Baseline approach and 6.523594914% better than the second approach.
+**Third Approach**
+- In average the F2 score for all Classifiers is 0.767284, which is a good score and 9.649855855% better than the Baseline approach and 6.523594914% better than the second approach.
 - The MLKNN Classifier has obtained the best average F2 score and was able to predict all labels  
 - OneVsRestClassifier with LinearSVC has obtained the lowest average F2 score, but was able to predict all labels
 
