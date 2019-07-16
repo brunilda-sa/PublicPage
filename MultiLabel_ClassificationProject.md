@@ -87,20 +87,23 @@ As shown below, classifiers were not able to predict labels having under-sampled
 ![ALT_Message](https://github.com/brunildacity01/MyProjects/blob/master/Images/Results_PerLabelBaseline.png)
 
 **Second Approach**
+
+`Average Score`
 - CNN                                   : 0.732413
 - MobileNet                             : 0.702046
 - VGG16                                 : work in progress
 
 **Third Approach**
 
-`Classifiers` / `Average Score`
+`Classifiers`
+_Average Score`
 - KNN                                   : 0.774087
 - MLKNN                                 : 0.816947
 - RandomForestClassifier                : 0.781214
 - OnevsRestClassifier_LogisticRegression: 0.762463
 - OnevsRestClassifier_LinearSVC         : 0.701709
 
-`Score per class`
+_Score per class`
 
 As shown below, when analysing the results per label, all Classifiers were able to predict all labels
 
