@@ -83,9 +83,7 @@ In this section we are going to present a summary of results. For more the detai
 
 As shown below, classifiers were not able to predict labels having under-sampled data, in our case as shown in the i.e. conventional_mine, selective_logging, blow_down, blooming, artisinal_mine
 
-<p>
-    <img src="https://github.com/brunildacity01/MyProjects/blob/master/Images/Results_PerLabelBaseline.png" width="220" height="240" />
-</p>
+![ALT_Text]("https://raw.githubusercontent.com/brunildacity01/MyProjects/master/Images/Results_PerLabelBaseline.png")
 
 **Second Approach**
 
@@ -108,7 +106,7 @@ Score per class
 
 As shown below, when analysing the results per label, all Classifiers were able to predict all labels
 
-![ALT_Message](https://github.com/brunildacity01/MyProjects/blob/master/Images/Results_PerLabelThird.png)
+![ALT_Text](https://github.com/brunildacity01/MyProjects/blob/master/Images/Results_PerLabelThird.png)
 
 `Neural Networks`
 
