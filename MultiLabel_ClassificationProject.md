@@ -22,12 +22,12 @@ Data list:
 ### What is a Multi-Label Classification
 Multi-Label classification means a classification task with more than one classe can be associated to the target;  the model assigns to each sample a set of target labels. This can be thought as predicting properties of a data-point that are not mutually exclusive.
 
-## Project Challenges
+### Project Challenges
 - Multi-Label classification task
 - Large dataset, the training data has over one million rows 
 - Imbalanced dataset
 
-### Methodology 
+## Methodology 
 -  Define several [approaches](#Overview-of-differents-strategies)
 -  Load a subset of data with 10000 samples and have a first overview of the labels distribution
 -  Preprocess Data
@@ -37,7 +37,7 @@ Multi-Label classification means a classification task with more than one classe
 -  Select the best model
 -  Final score on selected model using the test data set
 
-### Metric to be used
+## Metric to be used
 **F2 Score**: The most commonly use metrics to be use for imbalanced data is the F2 score. The F2 score, measures accuracy using the precision and recall. The F2 score is given by (1+β2)(pr/(β2p+r))  where  p=tptp+fp,  r=tptp+fn, β=2. Note that the F2 score weights recall higher than precision.
 
 **Precision**: is the ratio of true positives (tp) to all predicted positives (tp + fp)
