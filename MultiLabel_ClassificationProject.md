@@ -28,7 +28,7 @@ Multi-Label classification means a classification task with more than one classe
 - Imbalanced dataset
 
 ### Methodology 
--  Try several [approaches](#Overview-of-differents-strategies)
+-  Define several [approaches](#Overview-of-differents-strategies)
 -  Load a subset of data with 10000 samples and have a first overview of the labels distribution
 -  Preprocess Data
 -  Select scikit-learn Classifiers that handle multi-label classification
