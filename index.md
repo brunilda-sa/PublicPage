@@ -17,7 +17,7 @@ This page lists my data scientist projects. To navigate through the projects use
 ## Summary
 > This project is about building a multi-label classification model where a satellite image can be associated with several key words describing differents atmospheric conditions and various classes of land cover/land. More details about this project can be found in the links below:
 *   [Project Description](./MultiLabel_ClassificationProject.html)
-*   [Project Repository](https://github.com/brunildacity01/multilabel_classification)
+*   [Project Repository](https://github.com/bsequeira/multilabel_classification)
 
 ## Notebooks
 Below the notebooks associated to this project. You will find more all details about the results and code.
