@@ -28,14 +28,20 @@ Multi-Label classification means a classification task with more than one classe
 - Imbalanced dataset
 
 ## Methodology 
--  Define several [approaches](#Overview-of-differents-strategies)
+**General Methodology**
 -  Load a subset of data with 10000 samples and have a first overview of the labels distribution
--  Preprocess Data
--  Select scikit-learn Classifiers that handle multi-label classification
--  Select the best metric for this classifiation task
--  Hyperparameter optimization
+-  EDA & Preprocessing Cleaning Data
+-  Feature Engineering
+-  Scaling
+-  Deal with Classe imbalance
+-  Hyperparameter optimization using the cross-validation approach
 -  Select the best model
 -  Final score on selected model using the test data set
+
+**Others considerations**
+-  Define several strategies: Based on the process describe above, several strategies will be define. Refer to section "Overview of differents strategies" to have more details about them
+-  Select scikit-learn Classifiers that handle to handle multi-label classification
+-  Select the best metric for a multi-label classification task
 
 ## Metric to be used
 **F2 Score**: The most commonly use metrics to be use for imbalanced data is the F2 score. The F2 score, measures accuracy using the precision and recall. The F2 score is given by (1+β2)(pr/(β2p+r))  where  p=tptp+fp,  r=tptp+fn, β=2. Note that the F2 score weights recall higher than precision.
