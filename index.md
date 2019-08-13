@@ -22,9 +22,9 @@ This page lists my data scientist projects. To navigate through the projects use
 ## Notebooks
 Below the notebooks associated to this project. You will find more all details about the results and code.
 
-*   [BaseLine Approach Notebook](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/Capstone_BaselineAndSecondApproach.ipynb)
-*   [Second Approach Notebook](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/Capstone_BaselineAndSecondApproach.ipynb)
-*   [Third Approach Notebook](https://nbviewer.jupyter.org/github/brunildacity01/multilabel_classification/blob/master/Capstone_ThirdApproach.ipynb)
+*   [BaseLine Approach Notebook](https://nbviewer.jupyter.org/github/brunilda-sa/multilabel_classification/blob/master/Capstone_BaselineAndSecondApproach.ipynb)
+*   [Second Approach Notebook](https://nbviewer.jupyter.org/github/brunilda-sa/multilabel_classification/blob/master/Capstone_BaselineAndSecondApproach.ipynb)
+*   [Third Approach Notebook](https://nbviewer.jupyter.org/github/brunilda-sa/multilabel_classification/blob/master/Capstone_ThirdApproach.ipynb)
 
 # My upcoming Project
 ## Summary
