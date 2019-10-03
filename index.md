@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data Scientist Projects
-description: This page contains details about my data scientist projects
+description: This page contains information about my data scientist projects
 ---
 
 # 1. Introduction
