@@ -12,8 +12,8 @@ In this page you will find a high level introduction to each project as well as 
 
 1. [Introduction](#Introduction)
 2. [Projects](#Projects)
-2.1 [MultiLabel Classification for satellite images](#MultiLabel-Classification-for-satellite-images)
-2.2 [Next Project](#Next-Project)
+2.1  [MultiLabel Classification for satellite images](#MultiLabel-Classification-for-satellite-images)
+2.2  [Next Project](#Next-Project)
 
 # 2 Projects
 ## 2.1 MultiLabel Classification for satellite images
