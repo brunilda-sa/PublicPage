@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Multi-label classification for Satellite Images
-description: This page provides details about the process involves in building a Multi-Label Classifier for satellite images
+description: This page provides details about the Multi-Label Classifier for satellite images project
 ---
 # Multi-label classification for Satellite Images
 
@@ -10,68 +10,71 @@ In this project we are going to build a `multi-label classification model`, wher
 
 There are `17 possible labels`: agriculture, artisinal_mine, bare_ground, blooming, blow_down, clear, cloudy, conventional_mine, cultivation, habitation, haze, partly_cloudy, primary, road, selective_logging, slash_burn, water.
 
-### Data source and description
-The dataset contains the list of labels and satellite images. Images have four bands of data: red, green, blue, and near infrared
-The data comes from [Planet](https://www.planet.com/) and its Brazilian partner [SCCON](https://www.sccon.com.br/)
-Data list:
--  train.csv             : contains the training file names and their labels, the labels are space-delimited
--  sample_submission.csv : contains the test set names and their labels
--  train-jpg.zip         : Train set images
--  test-jpg.zip          : Test set images
-
-### What is a Multi-Label Classification
-Multi-Label classification means a classification task with more than one classe can be associated to the target;  the model assigns to each sample a set of target labels. This can be thought as predicting properties of a data-point that are not mutually exclusive.
-
-### Project Challenges
+Several challenges should be considered in the process of building this classifier, below a few of them:
 - Multi-Label classification task
 - Large dataset, the training data has over one million rows 
 - Imbalanced dataset
 
+## Data source and description
+The dataset contains the list of labels and satellite images. Each image have four bands of data: red, green, blue, and near infrared.
+
+The data comes from [Planet](https://www.planet.com/) and its Brazilian partner [SCCON](https://www.sccon.com.br/) and the list and description of available files is below:
+-  train.csv             : contains the training file names and their labels
+-  sample_submission.csv : contains the test set names and their labels
+-  train-jpg.zip         : contains the set of Train images
+-  test-jpg.zip          : contains the set of Test images
+
+## Concepts Overview
+### What is a Multi-Label Classification
+Multi-Label classification means a classification task with more than one classe can be associated to the target;  the model assigns to each sample a set of target labels. This can be thought as predicting properties of a data-point that are not mutually exclusive.
+
+### Metrics description
+-  **F2 Score**: The most commonly use metrics to be use for imbalanced data is the F2 score. The F2 score, measures accuracy using the precision and recall. The F2 score is given by (1+β2)(pr/(β2p+r))  where  p=tptp+fp,  r=tptp+fn, β=2. Note that the F2 score weights recall higher than precision.
+-  **Precision**: is the ratio of true positives (tp) to all predicted positives (tp + fp)
+-  **Recall**   :is the ratio of true positives to all actual positives (tp + fn)
+
 ## Methodology 
-**General Methodology**
--  Load a subset of data with 10000 samples and have a first overview of the labels distribution
--  EDA & Preprocessing Cleaning Data
--  Feature Engineering
--  Scaling
+-  Define several strategies. Refer to section [Strategies overview](#Strategies-overview) to have more details about this
+-  Select the best metric for a multi-label classification task
+-  Load a subset of data with at least 10000 samples and have a first overview of the labels distribution
+-  EDA, Preprocess and Clean Data
+-  Feature Engineer
+-  Scale
 -  Deal with Classe imbalance
 -  Hyperparameter optimization using the cross-validation approach
 -  Select the best model
--  Final score on selected model using the test data set
+-  Final score using the set of test data
+-  Analyse reesults and select the best model
 
-**Others considerations**
--  Define several strategies: Based on the process describe above, several strategies will be define. Refer to section "Overview of differents strategies" to have more details about them
--  Select scikit-learn Classifiers that handle to handle multi-label classification
--  Select the best metric for a multi-label classification task
-
-## Metric to be used
-**F2 Score**: The most commonly use metrics to be use for imbalanced data is the F2 score. The F2 score, measures accuracy using the precision and recall. The F2 score is given by (1+β2)(pr/(β2p+r))  where  p=tptp+fp,  r=tptp+fn, β=2. Note that the F2 score weights recall higher than precision.
-
-**Precision**: is the ratio of true positives (tp) to all predicted positives (tp + fp)
-
-**Recall**   :is the ratio of true positives to all actual positives (tp + fn)
-
-## Overview of differents strategies
-To find the best model, we are going to try several approaches:
-* `Baseline Approach`: Use scikit-learn Classifiers to build a multi-label model 
-* `Second Approach`  : Use CNN and Transfer Learning neural networks to build a multi-label model 
-* `Third Approach`   : Feature Engineer the predefined classes
+## Strategies overview
+To find the best model in terms of scoring, time consuming and computational requirements, below the strategies that will be implemented:
+* `Baseline Approach`: For this approach a preselected `scikit-learn classifiers` will be used to build our model
+* `Second Approach`  : For this approach a `CNN neural network` will be used to build our model
+* `Third Approach`   : For this approach the `Transfer Learning concept for neural network` will be used to build our model
 
 ### Baseline approach
-For the Baseline approach, we are going to proceed to a comparison analysis, based on the F2 score, among several sklearn classifiers that are able to handle multi-label classification. For more information about the below classifiers refer to [scikit Learn](https://scikit-learn.org/stable/modules/multiclass.html) web page:
+The Baseline approach consists in implement a multi-label classification model using the `scikit-learn classifiers` listed below:
   - KNN Classifier
   - MLKNN Classifier
   - RandomForestClassifier
   - OneVsRestClassifier with LogisticRegression
   - OneVsRestClassifier with LinearSVC
   
+The best classifier will be selected based on the F2 score, the execution timing and the computational requirements and then compare with others aproaches.
+
+For more information about the models above, please refer to the [scikit Learn web page](https://scikit-learn.org/stable/modules/multiclass.html).
+  
 ### Second approach
-For the second approach, we are going to proceed to a comparison analysis, based on the F2 score, among the below neural networks:
-- CNN
+The Second approach consists in implement a multi-label classification model using a `CNN Convolutional neural network` :
+
+The model will be evaluated based on the F2 score, the execution timing and the computational requirements and then compare with others aproaches.
+
+### Third approach
+The Third approach consists in implement a multi-label classification model using a the pre-trained neural network below:
 - MobileNet
 - VGG16
 
-### Third approach
-For the Third approach, after feature engineering, we are going to proceed to a comparison analysis, based on the F2 score, among all the classifiers and all neural network mentionned in the Baseline and Second approach.
+The best neural network will be selected based on the F2 score, the execution timing and the computational requirements and then compare with others aproaches.
 
 ## Results Summary
 In this section we are going to present a summary of results. For more the details about the results and visualization, please refer to the [previous page](https://brunildacity01.github.io/MyProjects/#my-upcoming-project), under the section `Notebooks`.
