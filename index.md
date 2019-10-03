@@ -9,8 +9,6 @@ description: This page contains details about my data scientist projects
 
 > In this page you will find a high level introduction to each project as well as some links to the projects results and notebooks. 
 
-> Use the taable of contents below to navigate from section to section.
-
 # Table of Contents
 
 1. [Introduction](#Introduction)
