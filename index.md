@@ -4,7 +4,7 @@ title: Data Scientist Projects
 description: This page contains information about my data scientist projects
 ---
 
-# 1. Introduction
+# Introduction
 > I have a Bachelor's Degree in electrical engineering and several years of professional experience in this field. Being someone that likes to learn, solve problems and analyse information I have enrolled myself into a Bootcamp at BrainStation to pursue a Data Scientist certificate. In this context, I intend to continously work in differents Data Scientist projects in order to build a portfolio that will show my skills and interests in the domain.
 
 > In this page you will find a high level introduction to each project as well as some links to the projects results and notebooks. 
