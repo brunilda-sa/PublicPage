@@ -19,7 +19,9 @@ description: This page contains information about my data scientist projects
 # Projects
 ## MultiLabel Classification for satellite images
 ### Summary
-> This project is about building a multi-label classification model where a satellite image can be associated with several key words describing differents atmospheric conditions and various classes of land cover/land. Detailed information about this project can be found in a dedicated page for this project, to access click in this [link](./MultiLabel_ClassificationProject.html)
+> This project is about building a multi-label classification model where a satellite image can be associated with several key words describing differents atmospheric conditions and various classes of land cover/land.
+
+> Detailed information about this project can be found in a dedicated page, to access click in this [Link](./MultiLabel_ClassificationProject.html)
 
 ### Notebooks
 Below the notebooks associated to this project. You will find all details about the results and code.
