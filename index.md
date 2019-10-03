@@ -24,17 +24,16 @@ In this page you will find a high level introduction to each project as well as 
 
 ### Notebooks
 Below the notebooks associated to this project. You will find all details about the results and code.
-
 *   [BaseLine Approach Notebook](https://nbviewer.jupyter.org/github/brunilda-sa/multilabel_classification/blob/master/Capstone_BaselineAndSecondApproach.ipynb)
 *   [Second Approach Notebook](https://nbviewer.jupyter.org/github/brunilda-sa/multilabel_classification/blob/master/Capstone_BaselineAndSecondApproach.ipynb)
 *   [Third Approach Notebook](https://nbviewer.jupyter.org/github/brunilda-sa/multilabel_classification/blob/master/Capstone_ThirdApproach.ipynb)
 
-## My upcoming Project
+## Next Project
 ### Summary
-> This project is currntly work in progress and is next to be published.
+> This project is currently work in progress and is next to be published.
 
 ### Notebooks
-> This project is currntly work in progress and is next to be published.
+> This project is currently work in progress and is next to be published.
 
 
 
